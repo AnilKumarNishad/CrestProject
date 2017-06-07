@@ -1,0 +1,42 @@
+
+<div class="showcase">
+<div class="jumbotron-login">
+  <h1>Welcome to LinkUS login page!</h1>
+  <p>
+    
+  </p>
+
+</div>
+
+
+<div class="container-login">
+  <div class="row">
+    <div class="col-am-6 col-md-4 col-md-offset-4">
+      <h1 class="text-center">Login to continue to LinkUS</h1>
+      <br>
+      <div class="account-wall">
+        <img src="http://apps.uap.asia/admissions/images/defaultpic.jpg" alt="" class="profile-image">
+        
+
+
+
+
+<form (submit)="onLoginSubmit()">
+
+    <div class="input-group">
+     <span class="input-group-addon"><i class="fa fa-user"></i></span>
+    <input type="text" [(ngModel)]="username" name="username" class="form-control" placeholder="Username" autofocus="true">
+  </div>
+  
+
+ 
+    <div class="input-group">
+     <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+    <input type="password" [(ngModel)]="Pwd" name="Pwd" class="form-control" placeholder="Password" autofocus="true">
+  </div>
+  
+
+  <input type="submit" class="btn btn-lg btn btn-primary btn-block" value="Sign in">
+
+</form>
+

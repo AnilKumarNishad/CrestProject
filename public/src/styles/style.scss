@@ -1,0 +1,237 @@
+/************************Home pg*********************************/
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: 100%;
+}
+
+.navbar-header-home{
+  color: #e6ebf1;
+
+  .navbar-brand{
+    set-text-color:#eee;
+  }
+}
+
+.jumbotron-container{
+  width: fit-text;
+  text-align: center;
+  font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color: #2A3F54;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+  h1{
+    font-size: 200px;
+  }
+  
+
+}
+
+.navbar{
+  margin-bottom:0;
+
+
+  .fa{
+    font-size: 18px;
+  }
+}
+
+.showcase{
+ 
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 30px 0;
+  text-align: center;
+
+  
+  .container{
+    background: #fff;
+    opacity: 0.7;
+    padding: 20px 30px 30px 30px;
+  }
+  
+}
+
+.section-a{
+  padding: 30px 0;
+  text-align: center;
+
+  color:#2A3F54;
+  .container{
+    background: #fff;
+    opacity: 0.7;
+    padding: 20px 30px 30px 30px;
+
+  }
+
+
+  h3{
+    font-size: 40px; 
+  }
+  .fa{
+    font-size:60px;
+  }
+}
+
+.section-b{
+
+  background: #e6ebf1;
+  padding: 30px 0;
+
+  img{
+    width:100%;
+  }
+}
+
+.panel-heading h4{
+  color:#2A3F54;
+
+}
+
+.section-c{
+  padding: 60px;
+ 
+  background: #e6ebf1;
+
+  h5{
+    font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color: #2A3F54;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+  font-size: 40;
+  }
+
+  p{
+    text-align: center;
+  }
+}
+
+footer{
+  padding:30;
+  background: lighten(#2A3F54, 10%);
+   color:set-text-color(#2A3F54);
+
+}
+
+
+
+/*login pg*/
+.jumbotron-login{
+   text-align: center;
+  font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color: #2A3F54;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+  h1{
+    font-size: 90px;
+  }
+  
+}
+
+.container-login{
+
+margin-top: 100px;
+
+  h1{
+    text-align: center;
+  font: 55px 'Great Vibes', Helvetica, sans-serif;
+  color: #2A3F54;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+
+  }
+
+  img{
+    
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+  }
+
+  
+
+  
+
+   input[type=text],
+  input[type=username]{
+    background: 0 0;
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 0;
+    margin-bottom: 30px;
+
+  }
+
+
+  input[type=text],
+  input[type=password]{
+    background: 0 0;
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 0;
+
+  }
+
+
+  .input-group-addon{
+    background: 0 0;
+    border: 0;
+    color: #2a3f54;
+
+    .fa{
+      font-size: 35px;
+      text-align: center;
+    }
+
+  }
+  
+ }
+
+ /************************Registration dropdown*********************************/
+
+ .jumbotron-register{
+     text-align: center;
+  font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color: #2A3F54;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+  h1{
+    font-size: 90px;
+  }
+
+ }
+
+ .container-register{
+      .input-group-addon{
+    background: 0 0;
+   
+    color: #2a3f54;
+
+    .fa{
+      font-size: 20px;
+      width: 10px;
+      height: 10px;
+
+    }
+
+    
+
+  }
+
+ h1{
+    text-align: center;
+  font: 55px 'Great Vibes', Helvetica, sans-serif;
+  color: #2A3F54;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+
+  }
+
+
+ }
+
+ .btn-primary{
+   position: center;
+ }
